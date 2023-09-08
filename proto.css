@@ -1,0 +1,48 @@
+body{
+    background-color:wheat;
+}
+header{
+    background-color: gray;
+    text-align: center;
+    padding: 7px 0;
+}
+nav ul{
+    list-style-type: none;
+}
+nav  li{
+     display: inline;
+     margin-right: 70px;
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.two{
+  margin-left: 8%;
+  margin-right: 10%;
+}
+.two p{
+    color: black;
+}
+.two a{
+    padding: 10px 16px;
+    background: pink;
+    text-decoration: none;
+    display: inline;
+    margin: 30px 0;
+    
+}
+.three{
+    margin-right: 10%;
+    margin-top: 10%;
+}
+.three img{
+    position: relative;
+    height: 400px;
+    width: 400px;
+}
+.three:hover img{
+    transform: scale(0.99);
+}
